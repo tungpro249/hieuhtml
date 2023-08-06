@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: inherit;
+}
+
+.font {
+    font: inherit;
+    font-size: 20px;
+    line-height: 3rem;
+    color: #2b2929;
+}
+
+hr {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.jumbotron {
+    background: #33537d;
+    width: 80%;
+    height: 100%;
+    padding: 60px;
+    margin: auto;
+}
+.jumbotron h1 {
+    color: #05b5bb;
+    background: #2b2929;
+    font-size: 38px;
+    display: inline;
+    padding: 1px 2px;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 27px;
+    margin-top: 60px;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.content-img {
+    position: relative;
+    top: 100px;
+}
+
+.content-img-head {
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #e2874f;
+}
+
+.content-img-bottom {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: inherit;
+}
+.link {
+    margin-bottom: 50px;
+}
+
+.link a {
+    padding: 10px 24px;
+    background: #ec8219;
+    border-radius: 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.brand {
+    width: 35%;
+    margin: auto;
+}
+
+.brand img {
+    width: -webkit-fill-available;
+}
+
+.center {
+    width: 900px;
+    margin: auto;
+}
+.pd-32 {
+    padding: 32px 0 !important;
+}
+.text-center {
+    text-align: center;
+    padding: 10px 0;
+}
